@@ -1,5 +1,5 @@
-from dicts.bosses import bosses
-from dicts.dusks import dusks
+from bosses import bosses
+from dusks import dusks
 
 drops = {
     "Lâmina de Qin Tian": {"boss": bosses[0], "dusk": dusks[1][1], "type": "green"},

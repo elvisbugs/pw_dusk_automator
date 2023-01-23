@@ -1,3 +1,3 @@
-from dicts.drops import drops
+from drops import drops
 
 print(drops)
