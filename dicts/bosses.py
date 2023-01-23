@@ -25,3 +25,6 @@ bosses = [
     "Senhor das Ilusões"      ,
     "Boss, Baú"
 ]
+
+if __name__ == "__main__":
+    print(bosses)

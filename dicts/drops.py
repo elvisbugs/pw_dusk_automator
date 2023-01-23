@@ -1,5 +1,5 @@
-from bosses import bosses
-from dusks import dusks
+from dicts.bosses import bosses
+from dicts.dusks import dusks
 
 drops = {
     "Lâmina de Qin Tian": {"boss": bosses[0], "dusk": dusks[1][1], "type": "green"},
@@ -321,4 +321,5 @@ drops = {
     "Símbolo do Crepúsculo": {"boss": bosses[21], "dusk": dusks[3][3], "type": "blue"},
 }
 
-print(drops)
+if __name__ == "__main__":
+    print(drops)
